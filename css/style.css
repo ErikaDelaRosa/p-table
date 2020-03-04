@@ -1,14 +1,19 @@
 table {
-    width: 950px;
-    height: 750px;
+    width: 98vw;
+    height: 75vh;
     background-color: white;
     border: black solid;
     text-align: center;
+    
 }
 
 tr, td {
     border:2px black solid;
     border-radius: 12%;
+    
+}
+td {
+    width: 5%;
 }
 
 tr:nth-child(1) :first-child,
@@ -187,8 +192,6 @@ tr:nth-child(7) :nth-child(14){
   background-color: lightpink;
 }
 
-
-
 tr:nth-child(5) :nth-child(3) {
   background-color: rgb(13, 197, 6);
 }
@@ -206,5 +209,9 @@ tr:nth-child(5) :nth-child(17),
 tr:nth-child(6) :nth-child(17),
 tr:nth-child(7) :nth-child(15){
 background-color: orange;
+}
+
+.empty {
+opacity: 0;
 }
 
