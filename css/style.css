@@ -1,0 +1,210 @@
+table {
+    width: 950px;
+    height: 750px;
+    background-color: white;
+    border: black solid;
+    text-align: center;
+}
+
+tr, td {
+    border:2px black solid;
+    border-radius: 12%;
+}
+
+tr:nth-child(1) :first-child,
+tr:nth-child(2) :nth-child(14),
+tr:nth-child(2) :nth-child(15),
+tr:nth-child(2) :nth-child(16),
+tr:nth-child(3) :nth-child(15),
+tr:nth-child(3) :nth-child(16) {
+background-color: yellow;
+}
+
+tr:nth-child(1) :last-child,
+tr:nth-child(7) :nth-child(16),
+tr:nth-child(2) :last-child,
+tr:nth-child(3) :last-child,
+tr:nth-child(4) :last-child,
+tr:nth-child(5) :last-child,
+tr:nth-child(6) :last-child{
+    background-color: fuchsia;
+}
+tr:nth-child(7) :nth-child(17){
+    background-color: mediumturquoise;
+}
+
+tr:nth-child(7) :last-child {
+  background-color: rgb(250, 130, 50);
+}
+
+tr:nth-child(2) :first-child {
+  background-color: rgb(39, 185, 243);
+    }
+
+tr:nth-child(3) :first-child {
+      background-color: rgb(39, 185, 243);
+  }
+tr:nth-child(4) :first-child {
+      background-color: rgb(39, 185, 243);
+  }
+tr:nth-child(5) :first-child {
+      background-color: rgb(39, 185, 243);
+  }
+tr:nth-child(6) :first-child {
+      background-color: rgb(39, 185, 243);
+  }
+tr:nth-child(7) :first-child {
+      background-color: rgb(39, 185, 243);
+  }
+
+tr:nth-child(8) :nth-child(2),
+tr:nth-child(8) :nth-child(3),
+tr:nth-child(8) :nth-child(4),
+tr:nth-child(8) :nth-child(5),
+tr:nth-child(8) :nth-child(6),
+tr:nth-child(8) :nth-child(7),
+tr:nth-child(8) :nth-child(8),
+tr:nth-child(8) :nth-child(9),
+tr:nth-child(8) :nth-child(10),
+tr:nth-child(8) :nth-child(11),
+tr:nth-child(8) :nth-child(12),
+tr:nth-child(8) :nth-child(13),
+tr:nth-child(8) :nth-child(14),
+tr:nth-child(8) :nth-child(15){
+      background-color: rgb(46, 250, 148);
+  }
+ 
+tr:nth-child(9) :nth-child(2),
+tr:nth-child(9) :nth-child(3),
+tr:nth-child(9) :nth-child(4),
+tr:nth-child(9) :nth-child(5),
+tr:nth-child(9) :nth-child(6),
+tr:nth-child(9) :nth-child(7),
+tr:nth-child(9) :nth-child(8),
+tr:nth-child(9) :nth-child(9),
+tr:nth-child(9) :nth-child(10),
+tr:nth-child(9) :nth-child(11),
+tr:nth-child(9) :nth-child(12),
+tr:nth-child(9) :nth-child(13),
+tr:nth-child(9) :nth-child(14),
+tr:nth-child(9) :nth-child(15){
+      background-color: #2efaf0;
+  }  
+
+ tr:nth-child(2) :nth-child(2) {
+     background-color: salmon;
+ }
+ tr:nth-child(3) :nth-child(2) {
+  background-color: salmon;
+}
+tr:nth-child(4) :nth-child(2) {
+  background-color: salmon;
+}
+tr:nth-child(5) :nth-child(2) {
+  background-color: salmon;
+}
+tr:nth-child(6) :nth-child(2) {
+  background-color: salmon;
+}
+tr:nth-child(7) :nth-child(2) {
+  background-color: salmon;
+}
+
+tr:nth-child(4) :nth-child(3),
+tr:nth-child(4) :nth-child(4),
+tr:nth-child(4) :nth-child(5), 
+tr:nth-child(4) :nth-child(6),
+tr:nth-child(4) :nth-child(7),
+tr:nth-child(4) :nth-child(8),
+tr:nth-child(4) :nth-child(9),
+tr:nth-child(4) :nth-child(10),
+tr:nth-child(4) :nth-child(11),
+tr:nth-child(4) :nth-child(12){
+  background-color: rgb(13, 197, 6);
+}
+tr:nth-child(5) :nth-child(3),
+tr:nth-child(5) :nth-child(4),
+tr:nth-child(5) :nth-child(5), 
+tr:nth-child(5) :nth-child(6),
+tr:nth-child(5) :nth-child(7),
+tr:nth-child(5) :nth-child(8),
+tr:nth-child(5) :nth-child(9),
+tr:nth-child(5) :nth-child(10),
+tr:nth-child(5) :nth-child(11),
+tr:nth-child(5) :nth-child(12){
+  background-color: rgb(13, 197, 6);
+}
+
+tr:nth-child(6) :nth-child(4),
+tr:nth-child(6) :nth-child(5), 
+tr:nth-child(6) :nth-child(6),
+tr:nth-child(6) :nth-child(7),
+tr:nth-child(6) :nth-child(8),
+tr:nth-child(6) :nth-child(9),
+tr:nth-child(6) :nth-child(10),
+tr:nth-child(6) :nth-child(11),
+tr:nth-child(6) :nth-child(12){
+  background-color: rgb(13, 197, 6);
+}
+tr:nth-child(7) :nth-child(4),
+tr:nth-child(7) :nth-child(5), 
+tr:nth-child(7) :nth-child(6),
+tr:nth-child(7) :nth-child(7),
+tr:nth-child(7) :nth-child(8),
+tr:nth-child(7) :nth-child(9),
+tr:nth-child(7) :nth-child(10),
+tr:nth-child(7) :nth-child(11),
+tr:nth-child(7) :nth-child(12){
+  background-color: rgb(13, 197, 6);
+}
+tr:nth-child(7) :nth-child(12){
+  background-color: rgb(13, 197, 6);
+}
+tr:nth-child(4) :nth-child(13){
+  background-color: lightpink;
+}
+tr:nth-child(3) :nth-child(14),
+tr:nth-child(4) :nth-child(14),
+tr:nth-child(4) :nth-child(15),
+tr:nth-child(2) :nth-child(13),
+tr:nth-child(5) :nth-child(15),
+tr:nth-child(5) :nth-child(16),
+tr:nth-child(6) :nth-child(16){
+  background-color: rgb(224, 112, 129);
+}
+tr:nth-child(4) :nth-child(16) {
+  background-color: yellow;
+}
+tr:nth-child(3) :nth-child(13),
+tr:nth-child(5) :nth-child(13),
+tr:nth-child(5) :nth-child(14),
+tr:nth-child(6) :nth-child(13),
+tr:nth-child(6) :nth-child(14),
+tr:nth-child(6) :nth-child(15),
+tr:nth-child(7) :nth-child(13),
+tr:nth-child(5) :nth-child(14),
+tr:nth-child(7) :nth-child(14){
+  background-color: lightpink;
+}
+
+
+
+tr:nth-child(5) :nth-child(3) {
+  background-color: rgb(13, 197, 6);
+}
+tr:nth-child(6) :nth-child(3) {
+  background-color: rgb(46, 250, 148);
+}
+tr:nth-child(7) :nth-child(3) {
+  background-color: #2efaf0;
+}
+
+tr:nth-child(2) :nth-child(17),
+tr:nth-child(3) :nth-child(17),
+tr:nth-child(4) :nth-child(17),
+tr:nth-child(5) :nth-child(17),
+tr:nth-child(6) :nth-child(17),
+tr:nth-child(7) :nth-child(15){
+background-color: orange;
+}
+
